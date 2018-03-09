@@ -78,7 +78,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: ENOENT: no such file or directory, open 'F:\\PROJECTS\\testowe\\webpack_mirek\\node_modules\\css-loader\\lib\\css-base.js'\n    at runLoaders (F:\\PROJECTS\\testowe\\webpack_mirek\\node_modules\\webpack\\lib\\NormalModule.js:236:20)\n    at F:\\PROJECTS\\testowe\\webpack_mirek\\node_modules\\loader-runner\\lib\\LoaderRunner.js:364:11\n    at F:\\PROJECTS\\testowe\\webpack_mirek\\node_modules\\loader-runner\\lib\\LoaderRunner.js:200:19\n    at process.nextTick (F:\\PROJECTS\\testowe\\webpack_mirek\\node_modules\\enhanced-resolve\\lib\\CachedInputFileSystem.js:73:15)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 

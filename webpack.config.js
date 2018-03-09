@@ -3,6 +3,8 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 // const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
+const CopyWebpackPlugin = require('copy-webpack-plugin')
+
 
 
 module.exports = {
@@ -56,15 +58,19 @@ module.exports = {
         new BrowserSyncPlugin({
             host: 'localhost',
             port: 3000,
-            server: { 
+            server: {
                 baseDir: "./"
-            }, 
+            },
             files: [
                 'css/*.css',
                 'src/*.js',
                 './*.html'
             ]
         }),
+
+        new CopyWebpackPlugin([{
+            from: 'images/'
+        }]),
     ]
 
 };
