@@ -1,0 +1,30 @@
+{
+  "name": "webpack_mirek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-cli": "^1.0.0-beta.28.3",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.2",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "jquery": "^3.3.1",
+    "npm": "^5.7.1"
+  }
+}

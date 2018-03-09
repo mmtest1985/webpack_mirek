@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./css/style.scss"],"names":[],"mappings":"AAAA,EACE,aAGA,SAAW","file":"bundle.css","sourcesContent":["p {\n  margin: 150px; }\n\np {\n  color: red; }\n"],"sourceRoot":""}
